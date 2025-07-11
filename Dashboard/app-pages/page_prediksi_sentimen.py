@@ -1,8 +1,15 @@
-import re
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import streamlit as st
-import time
+import re
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
 
+import time
+from nltk.corpus import stopwords
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory, StopWordRemover, ArrayDictionary
+from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+import plotly.express as px
+import pandas as pd
 # --------------------------------------
 # Data Processing Code 
 # --------------------------------------
