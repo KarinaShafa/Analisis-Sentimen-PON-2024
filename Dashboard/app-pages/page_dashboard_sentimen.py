@@ -495,20 +495,6 @@ with st.container(border=True):
         ngram_df_3, fig_3 = plot_ngram_frequencies(df_sentimen, sentimen_label=label_sentimen, n=3, top_n=top_number)
         st.plotly_chart(fig_3, use_container_width=True)
 
-# with st.container(border=True):
-#     st.subheader("Pengguna Paling Aktif & Sering Dimention Berdasarkan Sentimen")
-    
-#     # Membuat kolom
-#     col1d, col2d = st.columns(2, border=True)
-#     with col1d:
-#         st.markdown("<div style='text-align: center; font-size: 1rem'>Pengguna Paling Aktif</div>", unsafe_allow_html=True)
-#         fig_aktif, df_user_sentiment = plot_top_users_by_sentiment(df_sentimen, top_n=top_number, sentiment_filter=label_sentimen)
-#         st.plotly_chart(fig_aktif, use_container_width=True)
-#     with col2d:
-#         st.markdown("<div style='text-align: center; font-size: 1rem'>Pengguna Sering Dimention</div>", unsafe_allow_html=True)
-#         fig_mention, mention_df = plot_top_mentions_by_sentiment(df_sentimen, sentimen_filter=label_sentimen, top_n=top_number)
-#         st.plotly_chart(fig_mention, use_container_width=True)
-
 with st.container(border=True):
     st.subheader("Hashtag Terpopuler Berdasarkan Sentimen")
     with st.container(border=True):

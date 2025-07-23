@@ -50,3 +50,9 @@ Aplikasi ini sudah terintegrasi dengan model SVM yang disimpan dalam format `.pk
 4. **Penggunaan:**  
 - **Halaman Dashboard:** Menampilkan informasi visualisasi dan statistik terkait sentimen PON 2024 (Disertai filter yang dapat digunakan).
 - **Halaman Prediksi Sentimen:** Pengguna dapat memasukkan teks dan mengklik tombol "Prediksi Sentimen". Aplikasi akan memberikan hasil prediksi sentimen dan confidence score untuk setiap kelas (Positif, Netral, Negatif).
+
+5. 🚀 Coba Langsung
+Untuk mencoba dashboard secara langsung, silakan akses melalui link berikut:
+
+👉 https://sentimen-pon-2024.streamlit.app/
+^^karina

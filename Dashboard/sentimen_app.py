@@ -47,7 +47,7 @@ if "top_number" not in st.session_state:
 df_sentimen = st.session_state.df_sentimen
 
 # --------------------------------------
-# Streamlit UI Code 
+# Streamlit UI Code ^^karina^^
 # --------------------------------------
 
 # Page Setup
